@@ -12,7 +12,9 @@ The __app.js__, __engine.js__, and __resources.js__ files were merged in __full.
   
 Game Previews:
   
-![game preview 1](./preview1.png= 200*200)![game preview 2](./preview2.png =200*200)![game preview 3](./preview3.png =200*200)
+<img src="./preview1.png" alt="Game Intro" style="width: 200px;display:inline"/>
+<img src="./preview2.png" alt="Game In Action" style="width: 200px;display:inline"/>
+<img src="./preview3.png" alt="Game Over" style="width: 200px;display:inline"/>
 
 # Getting Started
 To play or test the game you just need to clone this git repository and open the index.html file through an http server.
