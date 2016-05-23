@@ -10,7 +10,7 @@ This is a project made for Udacity's frontend nanodegree. It is an arcade game t
   
 The __app.js__, __engine.js__, and __resources.js__ files were merged in __full.js__ and wrapped in a global function to avoid polluting the global scope. However, the code is identical between full.js and the three other js files.     
   
-![game preview 1](./preview1.png= 200x200 "Game Intro")![game preview 2](./preview2.png =200x200 "Game in Action")![game preview 3](./preview3.png =200x200 "Game Over")
+![game preview 1](./preview1.png= 200*200 "Game Intro")![game preview 2](./preview2.png =200*200 "Game in Action")![game preview 3](./preview3.png =200*200 "Game Over")
 
 # Getting Started
 To play or test the game you just need to clone this git repository and open the index.html file through an http server.
