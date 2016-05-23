@@ -385,7 +385,7 @@ var ladyBuggerAllStar = function() {
                 eventListenersObject.soundIconOnTopMenu(true);
                 document.getElementById('gameover-button').removeEventListener('click', eventListenersObject.buttonWhenGameOver);
                 window.removeEventListener('keyup', eventListenersObject.spacebarWhenGameOver);
-            }
+            };
 
             document.getElementById('gameover-button').addEventListener('click', eventListenersObject.buttonWhenGameOver.restartGame);
         };
@@ -453,12 +453,12 @@ var ladyBuggerAllStar = function() {
             /*see
                        above for keyEventFunctionForHidingMessageBoard functionalities*/
             else console.log("boolean argument missing for keysForHidingBoard function");
-        }
+        };
 
         /*for infoIconOnTopMenu listener, function must be inside a variable to remove the listener
         properly*/
         var showInfoMessageOnBoard = function() {
-            messageboard.showGameInstructionsOnBoard(messageboard, eventListenersObject.gameStartButton)
+            messageboard.showGameInstructionsOnBoard(messageboard, eventListenersObject.gameStartButton);
         };
 
         /*infoIconOnTopMenu allows to remove or add an event listener for when the stats Icon is clicked*/
@@ -477,7 +477,7 @@ var ladyBuggerAllStar = function() {
                     eventListenersObject.keysForHidingBoard(true);
                 }, 500);
             });
-        }
+        };
 
         /*statsIconOnTopMenu allows to remove or add an event listener for when the stats Icon is clicked*/
         this.statsIconOnTopMenu = function(bool) {
@@ -568,7 +568,7 @@ var ladyBuggerAllStar = function() {
                     eventListenersObject.buttonWhenGameOver();
                     window.addEventListener('keyup', eventListenersObject.spacebarWhenGameOver);
                 }
-            };
+            }
         };
 
         /*not a real event listener here, but checkPlayerCollisionsWithGems will be used to 
@@ -589,10 +589,10 @@ var ladyBuggerAllStar = function() {
                         topmenu.updateLivesOnTopMenu(player);
                     }
                     setTimeout(function() {
-                        bonus.hide()
+                        bonus.hide();
                     }, 333);
                 }
-            };
+            }
         };
 
         /*Again, not a real eventlistener, but this will be triggered when the player reach 
@@ -611,7 +611,7 @@ var ladyBuggerAllStar = function() {
             player.checkIfNewAllTimeLevel();
             topmenu.updateLevelOnTopMenu(levels);
             setTimeout(function() {
-                bonus.setBonus(levels)
+                bonus.setBonus(levels);
             }, 400);
             allEnemies.forEach(function(enemy) {
                 enemy.resetCurrentPosition();
@@ -665,7 +665,7 @@ var ladyBuggerAllStar = function() {
         var y_s = [60],
             i = 1;
         for (; i < canvas.numRows - 2; i++) {
-            y_s.push(i * 83 + 60)
+            y_s.push(i * 83 + 60);
         }
         this.y = y_s[Math.floor(Math.random() * (y_s.length))];
 
@@ -676,17 +676,17 @@ var ladyBuggerAllStar = function() {
         var x_s = [50],
             j = 1;
         for (; j < canvas.numCols; j++) {
-            x_s.push(j * 101 + 50)
+            x_s.push(j * 101 + 50);
         }
         this.x = x_s[Math.floor(Math.random() * (x_s.length - 1))];
         var y_s = [60],
             i = 1;
         for (; i < canvas.numRows - 2; i++) {
-            y_s.push(i * 83 + 60)
+            y_s.push(i * 83 + 60);
         }
         this.y = y_s[Math.floor(Math.random() * (y_s.length))];
 
-    }
+    };
 
 
 
@@ -764,7 +764,7 @@ var ladyBuggerAllStar = function() {
 
     Player.prototype.completeLevel = function() {
         eventListeners.playerCompletesLevel();
-    }
+    };
 
     // Bonus class
     // This class is used to handle the gems and heart that will be collected by the player during the game
@@ -824,7 +824,7 @@ var ladyBuggerAllStar = function() {
         this.renderBonus = function() {
             if (levels.currentLevel > 1) ctx.drawImage(Resources.get(bonus.image), bonus.x, bonus.y);
         };
-    }
+    };
 
 
     //the Levels class will be used to describe and assign proper level features as the player advances in the game
@@ -842,14 +842,14 @@ var ladyBuggerAllStar = function() {
             allEnemies = [];
             var i = 0;
             for (; i < levels.numberOfBugs; i++) {
-                allEnemies.push(new Enemy())
+                allEnemies.push(new Enemy());
             }
         };
         this.setNewBugsSpeed = function() {
             levels.bugSpeed = [levels.bugSpeed[0] * 1.03, levels.bugSpeed[1] * 1.05, levels.bugSpeed[2] * 1.06];
             allEnemies.forEach(function(value) {
                 value.speed = levels.bugSpeed[Math.floor(Math.random() * levels.bugSpeed.length)];
-            })
+            });
         };
 
         this.resetLevels = function() {
@@ -877,7 +877,7 @@ var ladyBuggerAllStar = function() {
     var allEnemies = [];
     var i = 0;
     for (; i < levels.numberOfBugs; i++) {
-        allEnemies.push(new Enemy())
+        allEnemies.push(new Enemy());
     }
     // Place the player object in a variable called player
     var player = new Player();
