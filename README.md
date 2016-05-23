@@ -16,11 +16,11 @@ The __app.js__, __engine.js__, and __resources.js__ files were merged in __full.
 To play or test the game you just need to clone this git repository and open the index.html file through an http server.
 
 ``` 
-git clone 
+git clone https://github.com/MichelML/frontend-nanodegree-arcade-game
 ```
 # Cool features
 1. The canvas adjusts itself based on the size of the browser window
-2. Cross-browser compatibility 
+2. Cross-browser compatibility for recent versions of IE, Mozilla Firefox, Chrome, and Edge
 3. Interesting gameplay although the first levels are quite easy (although it will depend on the size of your browser window - the bigger the window, the easier the game will be)  
 
 # Areas for improvement
@@ -35,4 +35,3 @@ git clone
 # Credits
 1. All sounds of the game come from [https://www.freesound.org/](https://www.freesound.org/ "FreeSound.org")
 2. The resources.js and engine.js file were coded by Udacity's teamand I only made some minor adjustments 
-
