@@ -17,7 +17,7 @@ Game Previews:
 <img src="./preview3.png" alt="Game Over" width=275 style="display:inline"/>
 
 # Getting Started
-To play or test the game you just need to clone this git repository and open the index.html file through an http server.
+To play or test the game you just need to clone or download this git repository and open the index.html file through an http server.
 
 ``` 
 git clone https://github.com/MichelML/frontend-nanodegree-arcade-game
