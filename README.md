@@ -31,11 +31,10 @@ git clone https://github.com/MichelML/frontend-nanodegree-arcade-game
 1. Allowing the user to select his/her character  
 2. Allowing the player to register as a user and save his/her data for later games (through a database system)
 3. Improving the design of the game  
-4. Implementing a touch functionalities  
-5. Refactoring the code base
-6. Implementing touch functionalities for touch-only devices  
-7. Fixing the bug displaying an invisible bonus that the player can collect at Level 1
+4. Refactoring the code base
+5. Implementing touch functionalities for touch-only devices  
+6. Fixing the bug displaying an invisible bonus that the player can collect at Level 1
 
 # Credits
 1. All sounds of the game come from [https://www.freesound.org/](https://www.freesound.org/ "FreeSound.org")
-2. The resources.js and engine.js file were coded by Udacity's teamand I only made some minor adjustments 
+2. The resources.js and engine.js file were coded by Udacity's team and I only made some minor adjustments 
