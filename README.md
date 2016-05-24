@@ -5,6 +5,8 @@ frontend-nanodegree-arcade-game
 This is a project made for Udacity's frontend nanodegree. It is an arcade game that we were asked to develop to better integrate the Object-Oriented Programming (OOP) style of JavaScript. 
   
 The __app.js__, __engine.js__, and __resources.js__ files were merged in __full.js__ and wrapped in a global function to avoid polluting the global scope. However, the code is identical between full.js and the three other js files.  
+
+Link to the game: [http://michelmoreau.ca/ladybuggerallstar/](http://michelmoreau.ca/ladybuggerallstar/)
   
 Game Previews:
   
