@@ -20,6 +20,9 @@ To play or test the game you just need to clone or download this git repository 
 ``` 
 git clone https://github.com/MichelML/frontend-nanodegree-arcade-game
 ```
+
+Or, You can access it directly at [http://michelmoreau.ca/ladybuggerallstar/](http://michelmoreau.ca/ladybuggerallstar/)  
+
 # Cool features
 1. The canvas adjusts itself based on the size of the browser window
 2. Cross-browser compatibility for recent versions of IE, Mozilla Firefox, Chrome, and Edge
