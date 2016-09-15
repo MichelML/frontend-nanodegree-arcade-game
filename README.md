@@ -6,7 +6,7 @@ This is a project made for Udacity's frontend nanodegree. It is an arcade game t
   
 The __app.js__, __engine.js__, and __resources.js__ files were merged in __full.js__ and wrapped in a global function to avoid polluting the global scope. However, the code is identical between full.js and the three other js files.  
 
-Link to the game: <a href="http://michelmoreau.ca/ladybuggerallstar/" target="_blank">http://michelml.github.io/frontend-nanodegree-arcade-game/</a>
+Link to the game: <a href="http://michelml.github.io/ladybugger-allstar/" target="_blank">http://michelml.github.io/ladybugger-allstar/</a>
   
 Game Previews:
   
@@ -18,10 +18,10 @@ Game Previews:
 To play or test the game you just need to clone or download this git repository and open the index.html file through an http server.
 
 ``` 
-git clone https://github.com/MichelML/frontend-nanodegree-arcade-game
+git clone https://github.com/MichelML/ladybugger-allstar.git
 ```
 
-Or, You can access it directly at <a href="http://michelmoreau.ca/ladybuggerallstar/" target="_blank">http://michelml.github.io/frontend-nanodegree-arcade-game/</a>
+Or, You can access it directly at <a href="https://github.com/MichelML/ladybugger-allstar" target="_blank">http://michelml.github.io/frontend-nanodegree-arcade-game/</a>
 
 # Cool features
 1. The canvas adjusts itself based on the size of the browser window
