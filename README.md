@@ -21,7 +21,7 @@ To play or test the game you just need to clone or download this git repository 
 git clone https://github.com/MichelML/ladybugger-allstar.git
 ```
 
-Or, You can access it directly at <a href="https://github.com/MichelML/ladybugger-allstar" target="_blank">http://michelml.github.io/frontend-nanodegree-arcade-game/</a>
+Or, You can access it directly at <a href="https://github.com/MichelML/ladybugger-allstar" target="_blank">http://michelml.github.io/ladybugger-allstar/</a>
 
 # Cool features
 1. The canvas adjusts itself based on the size of the browser window
